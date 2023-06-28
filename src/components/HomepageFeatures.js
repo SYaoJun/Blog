@@ -4,32 +4,34 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '专注',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       吾尝终日而思矣，不如须臾之所学也；吾尝跂而望矣，不如登高之博见也。
+       ——《劝学》荀子
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '极致',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      而世之奇伟、瑰怪，非常之观，常在于险远，而人之所罕至焉，故非有志者不能至也。有志矣，不随以止也，然力不足者，亦不能至也。
+      
+      ——《游褒禅山记》王安石
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '口碑',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也，而又何羡乎！
+        
+        ——《赤壁赋》苏轼
       </>
     ),
   },
