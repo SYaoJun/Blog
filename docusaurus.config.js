@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: '我不是匠人',
   tagline: '分享程序员立业翻身的下策',
-  url: 'https://junge.icu',
+  url: 'https://syaojun.github.io',
   baseUrl: '/Blog/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
