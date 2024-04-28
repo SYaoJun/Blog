@@ -55,7 +55,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: '数据库',
           },
-          {to: '/blog', label: '动态', position: 'left'},
+          {to: '/blog', label: '关于我', position: 'left'},
 
           {
             href: 'https://github.com/SYaoJun/CPPInterview',
@@ -68,46 +68,33 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '数据库',
+                to: '/docs',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'B站',
+                href: 'https://space.bilibili.com/30639161',
+              }
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
