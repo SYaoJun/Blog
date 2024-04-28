@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyaojun_blog=self.webpackChunkyaojun_blog||[]).push([[648],{9294:o=>{o.exports=JSON.parse('{"allTagsPath":"/Blog/blog/tags","slug":"/Blog/blog/tags/hobbies","name":"hobbies","count":1,"permalink":"/Blog/blog/tags/hobbies"}')}}]);
