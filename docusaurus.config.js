@@ -71,8 +71,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: '文档',
             items: [
               {
-                label: '数据库',
-                to: '/docs',
+                label: '关于我',
+                to: '/blog',
               },
             ],
           },
