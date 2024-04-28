@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: '我不是匠人',
-  tagline: '分享程序员立业翻身的下策',
+  title: '趣用编程',
+  tagline: '分享有趣和有用的编程知识',
   url: 'https://syaojun.github.io',
   baseUrl: '/Blog/',
   onBrokenLinks: 'throw',
@@ -43,7 +43,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '我不是匠人',
+        title: '趣用编程',
         logo: {
           alt: 'My Site Logo',
           src: 'img/head.JPG',
@@ -53,14 +53,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: '数据库内核',
+            label: '数据库',
           },
-          {to: '/blog', label: '系统编程', position: 'left'},
-          {to: '/blog', label: 'Rust学习', position: 'left'},
-          {to: '/blog', label: '个人博客', position: 'left'},
-          
+          {to: '/blog', label: '动态', position: 'left'},
+
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/SYaoJun/CPPInterview',
             label: 'GitHub',
             position: 'right',
           },
